@@ -6,7 +6,7 @@ def hello_t(array)
     i = i + 1 
   end
   hello_t (" ") do |name|
-    if name.start_with
+    if name.start_with? ("T")
 end
 
 # call your method here!
