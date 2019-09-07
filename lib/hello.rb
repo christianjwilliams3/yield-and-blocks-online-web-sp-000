@@ -5,6 +5,8 @@ def hello_t(array)
       yield array[i]
     i = i + 1 
   end
+  hello_t (" ") do |name|
+    if name.start_with
 end
 
 # call your method here!
